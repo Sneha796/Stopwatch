@@ -1,1 +1,51 @@
+*{
+  font-family:sans-serif,verdana,arial;
+  font-size:20px;
+}
+body{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.stopwatch{
+  width:50%;
+  height:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:15px;
+  border:solid;
+}
 
+.display{
+  height:80px;
+  border-radius:10px;
+  flex-direction:column;
+}
+
+.buttons{
+  border-radius:15px;
+  border:solid;
+  height:40px;
+  display:flex;
+}
+
+#101:hover{
+  cursor:pointer;
+  background-color:green;
+  color:black;
+}
+
+#102:hover{
+  cursor:pointer;
+  background-color:yellow;
+  color:black;
+}
+
+#103:hover{
+  cursor:pointer;
+  background-color:red;
+  color:white;
+}
+  

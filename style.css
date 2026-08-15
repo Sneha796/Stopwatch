@@ -21,7 +21,6 @@ body{
 .display{
   height:80px;
   border-radius:10px;
-  flex-direction:column;
 }
 
 .buttons{
@@ -29,6 +28,7 @@ body{
   border:solid;
   height:40px;
   display:flex;
+  flex-direction:column;
 }
 
 #101:hover{

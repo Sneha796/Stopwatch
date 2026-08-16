@@ -1,7 +1,7 @@
 let display = 
-  documents.querySelector(".display");
+  document.querySelector(".display");
 
-let second = 0;
+let seconds = 0;
 let minute = 0;
 let hour = 0;
 

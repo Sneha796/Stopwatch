@@ -3,7 +3,7 @@
   font-size:20px;
 }
 body{
-  min-height:100vh;
+  min-height:500vh;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -17,6 +17,8 @@ body{
   border-radius:15px;
   border:solid;
   flex-direction:column;
+  background-color:black;
+  color:white;
 }
 
 .display{
@@ -39,13 +41,13 @@ body{
 
 #102:hover{
   cursor:pointer;
-  background-color:yellow;
-  color:black;
+  background-color:red;
+  color:white;
 }
 
 #103:hover{
   cursor:pointer;
-  background-color:red;
-  color:white;
+  background-color:yellow;
+  color:black;
 }
   
